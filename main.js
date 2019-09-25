@@ -10,6 +10,7 @@ var btnProbar = document.querySelector('#btnProbar')
 
 btnProbar.addEventListener('click', ()=> {
     let num = Number(inpNum1.value)
+    let num2 = Number(inpNum2.value)
 
     if(num < 10) {
         alert('Es una unidad')
